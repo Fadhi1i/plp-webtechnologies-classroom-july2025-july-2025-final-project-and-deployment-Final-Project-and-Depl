@@ -1,90 +1,60 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# GreenEarth — Environment & Trees Website 🌍🌱
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## Project Purpose
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+GreenEarth is a multipage static website designed to raise awareness about the importance of trees and environmental conservation.  
+The site highlights why trees matter, showcases a gallery of beautiful forests, provides eco-friendly action tips, and encourages users to join the green mission through a contact form.
 
----
+This project demonstrates:
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+- Semantic HTML5 structure
+- Responsive and accessible CSS design
+- Interactive JavaScript features (menu toggle, gallery lightbox, accordion, form validation)
+- Organized, production-ready file structure
+- Deployment to a live hosting service (GitHub Pages / Netlify / Vercel)
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Website Structure
 
-Using your plan, begin building:
+The website consists of **five main pages**:
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+1. **Home (`index.html`)**
 
-Each page should:
+   - Hero section with forest background
+   - Intro and call-to-action button
+   - Quick info cards on eco-friendly habits
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+2. **About Trees (`about.html`)**
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+   - Information on the benefits of trees (air, shade, biodiversity, climate regulation)
+   - Presented with icons and short text cards
 
----
+3. **Gallery (`gallery.html`)**
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+   - Grid of tree/forest images
+   - Interactive lightbox to enlarge photos
 
-Before deployment, refactor your project to follow production-friendly practices:
+4. **Take Action (`action.html`)**
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+   - Interactive accordion/checklist of ways to protect the environment
+   - Encourages users to engage in eco-friendly activities
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+5. **Contact (`contact.html`)**
+   - Simple form (name, email, message)
+   - Client-side validation with JavaScript
 
 ---
 
-## Deliverables
+## File Organization
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+/css
+style.css # Main stylesheet
+/js
+script.js # JavaScript interactivity
+/images # Site images (trees, forests, icons)
+index.html # Home page
+about.html # About Trees page
+gallery.html # Gallery page
+action.html # Take Action page
+contact.html # Contact page
