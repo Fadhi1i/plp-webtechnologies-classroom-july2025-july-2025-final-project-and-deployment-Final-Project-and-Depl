@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreenEarth — Gallery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">GreenEarth</a>
+        <nav class="main-nav" id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Trees</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="action.html">Take Action</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Tree Gallery</h1>
+      <p>Some of the marvelous trees.</p>
+
+      <section class="gallery-grid" id="gallery-grid">
+        <!-- Example images - replace with your own files in /images -->
+        <img
+          src="images/tree-1.jpg"
+          alt="Tree 1"
+          class="gallery-item"
+          tabindex="0"
+        />
+        <img
+          src="images/tree-2.jpg"
+          alt="Tree 2"
+          class="gallery-item"
+          tabindex="0"
+        />
+        <img
+          src="images/tree-3.jpg"
+          alt="Tree 3"
+          class="gallery-item"
+          tabindex="0"
+        />
+        <img
+          src="images/tree-4.jpg"
+          alt="Tree 4"
+          class="gallery-item"
+          tabindex="0"
+        />
+      </section>
+
+      <!-- Lightbox modal (hidden by default) -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightbox-close">✕</button>
+        <img id="lightbox-img" src="" alt="Expanded view" />
+        <p id="lightbox-caption" class="lightbox-caption"></p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> GreenEarth. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreenEarth — Take Action</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">GreenEarth</a>
+        <nav class="main-nav" id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Trees</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="action.html">Take Action</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>How you can help</h1>
+
+      <section class="accordion" id="accordion">
+        <div class="accordion-item">
+          <button class="accordion-toggle">Plant native species</button>
+          <div class="accordion-content">
+            <p>
+              Native trees support local wildlife and adapt better to local
+              conditions.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-toggle">Reduce single-use products</button>
+          <div class="accordion-content">
+            <p>
+              Choose reusable options to reduce waste and pressure on
+              ecosystems.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-toggle">Support local conservation</button>
+          <div class="accordion-content">
+            <p>
+              Volunteer or donate to groups that protect forests and plant
+              trees.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> GreenEarth. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

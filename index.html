@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreenEarth — Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">GreenEarth</a>
+        <nav class="main-nav" id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Trees</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="action.html">Take Action</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner container">
+          <h1>Grow a greener world</h1>
+          <p>
+            Learn about trees, how they help our planet, and simple actions you
+            can take today.
+          </p>
+          <a class="btn primary" href="about.html">Explore Trees</a>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article class="card">
+          <h3>Plant Trees</h3>
+          <p>
+            Planting trees is one of the simplest ways to support biodiversity
+            and fight climate change.
+          </p>
+          <img
+            src="images/tree-6.jpg"
+            alt="Tree 1"
+            class="gallery-item"
+            tabindex="0"
+          />
+        </article>
+        <article class="card">
+          <h3>Save Water</h3>
+          <p>
+            Water wisely to protect local ecosystems and conserve resources.
+          </p>
+          <img
+            src="images/tree-5.jpg"
+            alt="Tree 1"
+            class="gallery-item"
+            tabindex="0"
+          />
+        </article>
+        <article class="card">
+          <h3>Protect Forests</h3>
+          <p>Support local conservation efforts and responsible products.</p>
+          <img
+            src="images/tree-7.webp"
+            alt="Tree 1"
+            class="gallery-item"
+            tabindex="0"
+          />
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> GreenEarth. All rights reserved.</p>
+        <div class="socials">
+          Follow us: <a href="#">Twitter</a> • <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
